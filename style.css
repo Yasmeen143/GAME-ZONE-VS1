@@ -1,0 +1,51 @@
+.header{
+    background-color: burlywood;
+    text-align: center;
+    margin-top: 0px;
+    background-image: url('GAME ZONE.jpg');
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: cornsilk;
+    background-color:rgba(220, 220, 220, 0.685);
+    background-repeat: no-repeat;
+}
+
+.sub-header{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+a{
+text-decoration: none;
+font-size: 30px;
+background-color:rgba(225, 65, 132, 0.767);
+padding: 10px;
+color:rgba(172, 255, 47, 0.733);
+font-weight: bolder;
+}
+
+.products
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+padding: 70px;
+
+}
+
+.item
+{
+margin: 30px;
+
+}
+.footer{
+    padding: 40px;
+    display: flex;
+    background-color: rgba(255, 127, 80, 0.493);
+    justify-content: space-around;
+}
+
